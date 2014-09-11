@@ -28,5 +28,5 @@ function draw(){
   }
 
   var size = Math.abs(mouseX - 320);
-  ellipse(320, 240,size,size);
+  ellipse(320, 240, mouseX, mouseY);
 }
