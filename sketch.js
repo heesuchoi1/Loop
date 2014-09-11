@@ -7,12 +7,19 @@ function setup() {
 
   var x;
 
-  x = 100;
-  ellipse(x, 100, 50, 50);
+  /*
+  x = 1;
+  ellipse(x * 150 , 100, 50, 50);
 
-  x = 250;
-  ellipse(x, 100, 50, 50);
+  x = 2;
+  ellipse(x * 150, 100, 50, 50);
 
-  x = 300;
-  ellipse(x, 100, 50, 50);
+  x = 3;
+  ellipse(x * 150, 100, 50, 50);
+  */
+
+  for (var x =1; X <=3; X++)
+  {
+    ellipse(x * 150, 100, 50, 50);
+  }
 }
